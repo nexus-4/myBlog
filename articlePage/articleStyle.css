@@ -22,7 +22,7 @@
 
     menu {
         width: 100vw;
-        height: 10vh;
+        height: 50px;
     
         display: flex;
         align-items: center;
@@ -47,15 +47,55 @@
 
     main {
         background-color:white ;
-        height: 500px;
-        width: 100%;
+        width: 460px;
+        height: 950px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+
     }
-    /* estilo das informacoes do escritor */
+
+    /* estilo da Div das informacoes do escritor */
 
     #infoDiv {
         background-color: red;
         height: 150px;
         width: 400px;
+
+        display: flex;
+        align-items: center;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+
+    /* estilo da imagem do escritor*/
+
+    #imageProfileDiv {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: blue;
+    }
+
+    /* estilo da Div da bio do escritor*/
+
+    #textInfoDiv {
+        background-color: blueviolet;
+        width: 200px;
+        height: 100px;
+        padding: 10px;
+    }
+
+    /* estilo da tag do artigo*/
+
+    article {
+        margin: 50px;
+        height: 200px;
+        width: 95%;
+        background-color: greenyellow;
+        
     }
 
 
