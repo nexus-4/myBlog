@@ -94,7 +94,7 @@
         justify-content: space-evenly;
 
         width: fit-content;
-        height: 100%;
+        height: 90%;
     }
 
     .lastPost {
@@ -102,19 +102,19 @@
         background-color: brown;
         border: 2px solid black;
     
-        width: 350px;
-        height: 210px;
+        width: 220px;
+        height: 220px;
+        margin: 10px;
     }
 
     /* estilo hover last post */
     
     .lastPost::after {
         content: " ";
-        height: 205px;
+        height: 125.9px;
         visibility: hidden;
     
         border-radius: 10px;
-        border: 2px solid black;
     }
     .lastPost:hover::after {
         cursor: pointer;
