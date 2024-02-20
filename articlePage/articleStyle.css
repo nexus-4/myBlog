@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@media screen and (min-width:380px) and (max-width: 992px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: bisque;
+        height: 800px;
+        width: 100vw;
+    
+        display: flex;
+        align-items: center;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+    }
+    
+    /* estilo do menu */
+
+    menu {
+        width: 100vw;
+        height: 10vh;
+    
+        display: flex;
+        align-items: center;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        background-color: rgba(0, 0, 0, 0.264);
+    
+        position: sticky;
+        top: 0;
+    }
+    menu ol {
+        display: none;
+    }
+    .material-symbols-outlined {
+        margin-right: 30px;
+    }
+    .material-symbols-outlined:hover {
+        cursor: pointer;
+    }
+
+    /* estilo da main */
+
+    main {
+        background-color:white ;
+        height: 500px;
+        width: 100%;
+    }
+    /* estilo das informacoes do escritor */
+
+    #infoDiv {
+        background-color: red;
+        height: 150px;
+        width: 400px;
+    }
+
+
+
+
+}
