@@ -9,7 +9,7 @@
 
     body {
         background-color: bisque;
-        height: 800px;
+        height: fit-content;
         width: 100vw;
     
         display: flex;
@@ -46,23 +46,24 @@
     /* estilo da main */
 
     main {
-        background-color:white ;
-        width: 460px;
-        height: 950px;
+        width: 85%;
+        margin-top: 50px;
+        height: fit-content;
 
         display: flex;
-        flex-flow: column nowrap;
         align-items: center;
+        flex-flow: column nowrap;
         justify-content: space-evenly;
-
+        
     }
 
     /* estilo da Div das informacoes do escritor */
 
     #infoDiv {
-        background-color: red;
-        height: 150px;
         width: 400px;
+        height: 150px;
+        border-radius: 10px;
+        border: 1px solid black;
 
         display: flex;
         align-items: center;
@@ -82,7 +83,6 @@
     /* estilo da Div da bio do escritor*/
 
     #textInfoDiv {
-        background-color: blueviolet;
         width: 200px;
         height: 100px;
         padding: 10px;
@@ -91,14 +91,16 @@
     /* estilo da tag do artigo*/
 
     article {
-        margin: 50px;
-        height: 200px;
         width: 95%;
-        background-color: greenyellow;
-        
+        margin: 50px;
+        padding: 10px;
+        height: 900px;
+        border-radius: 10px;
+        border: 1px solid black;
     }
-
-
-
-
+    article p {
+        margin-top: 10px;
+        text-indent: 30px;
+        text-align: justify;
+    }
 }
