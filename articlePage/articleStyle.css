@@ -93,8 +93,8 @@
     article {
         width: 95%;
         margin: 50px;
-        padding: 10px;
-        height: 900px;
+        padding: 20px;
+        height: fit-content;
         border-radius: 10px;
         border: 1px solid black;
     }
