@@ -98,9 +98,13 @@
         border-radius: 10px;
         border: 1px solid black;
     }
+    #tituloArtigo {
+        font-size: 2em;
+    }
     article p {
         margin-top: 10px;
         text-indent: 30px;
         text-align: justify;
+        font-size: 20px;
     }
 }
